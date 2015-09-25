@@ -6,5 +6,6 @@ package soundsystem;
  * Date : 15. 9. 25.
  * Time : 오전 9:27
  */
-public class CompactDisc {
+public interface CompactDisc {
+	void play();
 }

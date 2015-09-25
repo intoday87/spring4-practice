@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="soundsystem.CDPlayerConfigTest2" tests="1" skipped="0" failures="0" errors="0" timestamp="2015-09-25T01:33:52" hostname="Nick-LeeDongHo.local" time="0.248">
+  <properties/>
+  <testcase name="testName" classname="soundsystem.CDPlayerConfigTest2" time="0.248"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[9월 25, 2015 10:33:52 오전 org.springframework.context.annotation.AnnotationConfigApplicationContext prepareRefresh
+정보: Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7d6d0ff6: startup date [Fri Sep 25 10:33:52 KST 2015]; root of context hierarchy
+9월 25, 2015 10:33:52 오전 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor <init>
+정보: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+]]></system-err>
+</testsuite>
