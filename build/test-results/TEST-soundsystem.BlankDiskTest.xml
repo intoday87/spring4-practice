@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="soundsystem.BlankDiskTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2015-10-05T04:38:12" hostname="Nick-LeeDongHo.local" time="0.276">
+  <properties/>
+  <testcase name="testName" classname="soundsystem.BlankDiskTest" time="0.276"/>
+  <system-out><![CDATA[Playing Rage Against The Machine byRage Against The Machine
+-Track: track 1
+-Track: track 2
+-Track: track 3
+]]></system-out>
+  <system-err><![CDATA[10월 05, 2015 1:38:12 오후 org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+정보: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@61886832: startup date [Mon Oct 05 13:38:12 KST 2015]; root of context hierarchy
+10월 05, 2015 1:38:12 오후 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+정보: Loading XML bean definitions from class path resource [CDPlayerConfig.xml]
+]]></system-err>
+</testsuite>
