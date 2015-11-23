@@ -13,7 +13,7 @@ import static org.fest.assertions.Assertions.assertThat;
  * Date : 15. 10. 5.
  * Time : 오후 1:03
  */
-public class BlankDiskTest {
+public class BlankDiscTest {
 	private ApplicationContext applicationContext;
 
 	@Before

@@ -2,6 +2,7 @@ group 'spring4-test'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'war'
 
 sourceCompatibility = 1.5
 
@@ -17,4 +18,8 @@ dependencies {
     compile 'org.easytesting:fest-assert:1.4'
     compile 'javax.enterprise:cdi-api:1.2'
     compile 'org.junit.contrib:junit-theories:4.12'
+    compile 'org.springframework:spring-webmvc:4.2.2.RELEASE'
+    compile 'javax.servlet:jstl:1.2'
+    compile 'org.projectlombok:lombok:1.16.4'
+
 }
