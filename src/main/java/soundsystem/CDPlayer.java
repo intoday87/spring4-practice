@@ -1,9 +1,11 @@
 package soundsystem;
 
+import lombok.Getter;
 import org.springframework.stereotype.Component;
 
 import javax.inject.Inject;
 
+@Getter
 @Component
 public class CDPlayer implements MediaPlayer {
 	private CompactDisc cd;

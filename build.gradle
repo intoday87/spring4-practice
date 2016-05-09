@@ -2,7 +2,6 @@ group 'spring4-test'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
-apply plugin: 'war'
 
 sourceCompatibility = 1.5
 
@@ -20,7 +19,7 @@ dependencies {
     compile 'org.junit.contrib:junit-theories:4.12'
     compile 'org.springframework:spring-webmvc:4.2.2.RELEASE'
     compile 'javax.servlet:jstl:1.2'
-    compile 'org.projectlombok:lombok:1.16.4'
+    compile 'org.projectlombok:lombok:1.16.6'
     compile 'org.aspectj:aspectjrt:1.8.9'
     compile 'org.aspectj:aspectjweaver:1.8.9'
 }
