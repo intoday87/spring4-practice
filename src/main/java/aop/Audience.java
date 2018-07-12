@@ -1,9 +1,7 @@
 package aop;
 
-import org.aspectj.lang.annotation.After;
-import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
-import org.aspectj.lang.annotation.Pointcut;
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.*;
 
 @Aspect
 public class Audience {
@@ -28,5 +26,12 @@ public class Audience {
     @After("execution(void aop.Performance.perform(..)) && bean(performanceImpl)")
     public void afterPerformanceImpl() {
         System.out.println("end of performanceImpl");
+    }
+
+    @Around("performance()")
+    public void performanceAround(ProceedingJoinPoint jp) throws Throwable {
+        System.out.println("around before performance");
+        jp.proceed(new Object[] {"around song"});
+        System.out.println("around after performance");
     }
 }
