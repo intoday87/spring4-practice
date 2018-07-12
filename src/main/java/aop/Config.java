@@ -13,4 +13,9 @@ public class Config {
     public Audience audience() {
         return new Audience();
     }
+
+    @Bean
+    public ParamCounter paramCounter() {
+        return new ParamCounter();
+    }
 }
