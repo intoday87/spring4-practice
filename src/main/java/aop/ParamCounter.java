@@ -15,8 +15,8 @@ public class ParamCounter {
         map = new HashMap<String, Integer>();
     }
 
-    @Pointcut("execution(* aop.Performance.perform(String)) && args(str)")
-    public void track(String str) {}
+    @Pointcut("execution(* aop.Performance.perform(String)) && args(a)")
+    public void track(String a) {}
 
     @Before("track(str)")
     public void countParam(String str) {
