@@ -20,9 +20,6 @@ public class CDPlayerConfigTest {
 	@Autowired
 	private CompactDisc cd;
 
-	@Autowired
-	private CDPlayer player;
-
 	@Test
 	public void testName() throws Exception {
 		assertThat(cd).isNotNull();
